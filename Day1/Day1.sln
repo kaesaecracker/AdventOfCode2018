@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calibration", "Calibration\Calibration.csproj", "{5F99326A-283D-46D4-B473-BB75EFA19293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleValues", "DoubleValues\DoubleValues.csproj", "{0B6583D9-3B5D-495F-813F-21D63C6229CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F99326A-283D-46D4-B473-BB75EFA19293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F99326A-283D-46D4-B473-BB75EFA19293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F99326A-283D-46D4-B473-BB75EFA19293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F99326A-283D-46D4-B473-BB75EFA19293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6583D9-3B5D-495F-813F-21D63C6229CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6583D9-3B5D-495F-813F-21D63C6229CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6583D9-3B5D-495F-813F-21D63C6229CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6583D9-3B5D-495F-813F-21D63C6229CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
