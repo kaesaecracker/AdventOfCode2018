@@ -1,3 +1,10 @@
+# IntelliJ IDE platform
 .idea
+
+# Binaries C# (and others) 
 obj/
 bin/
+
+# Binaries for Kotlin
+*.class
+*.kotlin_module
