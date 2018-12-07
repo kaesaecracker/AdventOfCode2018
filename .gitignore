@@ -1,5 +1,6 @@
 # IntelliJ IDE platform
 .idea
+.attach_*
 
 # Binaries C# (and others) 
 obj/
@@ -8,3 +9,7 @@ bin/
 # Binaries for Kotlin
 *.class
 *.kotlin_module
+
+# python stuff
+venv/
+__pycache__/
