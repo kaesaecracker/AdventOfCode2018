@@ -1,4 +1,4 @@
-package xyz.mattishub.adventofcode.day5
+package xyz.mattishub.adventofcode2018.day5
 
 import java.io.File
 
