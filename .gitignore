@@ -13,3 +13,6 @@ bin/
 # python stuff
 venv/
 __pycache__/
+
+
+*.backup
