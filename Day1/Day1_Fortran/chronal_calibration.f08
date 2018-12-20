@@ -70,14 +70,14 @@ program chronal_calibration
 
       ! change current frequency according to change read from file
       current_freq = current_freq + freq_change
-      write (*, "(i5)", advance='NO') current_freq
+      if (current_freq == 82516) print *, "This line should appear twice"
 
       ! keep track of past frequencies to find duplicate (if not already found)
       if (.not. double_freq_found) then
          if (arr_contains(seen_freqs, current_freq)) then ! already in list -> duplicate found
             double_freq = current_freq
             double_freq_found = .true.
-            print *, " - is a duplicate "
+            print *, "is a duplicate", current_freq
          else ! not in list -> add to list
             ! make sure array is big enough, resize if necessary
             call require_min_size(seen_freqs, seen_freqs_index)
@@ -85,7 +85,6 @@ program chronal_calibration
             seen_freqs(seen_freqs_index) = current_freq
             seen_freqs_index = seen_freqs_index + 1
 
-            print *, " - Added value to list"
             if (.not. arr_contains(seen_freqs, current_freq)) stop "message"
          end if
       end if
