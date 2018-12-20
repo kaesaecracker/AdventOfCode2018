@@ -2,7 +2,7 @@
 .idea
 .attach_*
 
-# Binaries C# (and others) 
+# Binaries C# (and others)
 obj/
 bin/
 
@@ -14,5 +14,8 @@ bin/
 venv/
 __pycache__/
 
+# Fortran stuff
+*.out
+*.mod
 
 *.backup
