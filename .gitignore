@@ -17,5 +17,6 @@ __pycache__/
 # Fortran stuff
 *.out
 *.mod
+build
 
 *.backup
