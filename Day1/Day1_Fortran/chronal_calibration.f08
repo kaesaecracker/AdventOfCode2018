@@ -52,7 +52,7 @@ program chronal_calibration
    integer, parameter                 :: input_unit = 142
 
    ! Open the input file
-   open (unit=input_unit, file="../Day1/input.txt", iostat=ios, status="old", action="read", form="formatted")
+   open (unit=input_unit, file="../input.txt", iostat=ios, status="old", action="read", form="formatted")
    if (ios /= 0) stop "Error opening input file"
 
    ! initial seen_freqs array size
